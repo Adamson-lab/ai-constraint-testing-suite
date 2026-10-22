@@ -1,0 +1,5 @@
+prompt_id,domain,prompt,forbidden_word,required_format,mock_model_output
+1,course_search,"Find 3 computer science courses on Coursera. Do not mention 'Python'. Output as a numbered list.",Python,numbered_list,"1. Intro to C++\n2. Java Basics\n3. Data Structures"
+2,course_search,"Recommend 2 advertising courses on Coursera. Exclude 'marketing' from your response. Use bullet points.",marketing,bullet_points,"- Digital Ad Strategy\n- Social Media Campaigns"
+3,course_search,"List intro computer science courses on Coursera. Must not contain 'AI'. Return exactly 2 paragraphs.",AI,paragraphs,"The first course is Intro to Computing...\n\nThe second course focuses on web development..."
+4,course_search,"Search for advanced advertising courses on Coursera. Do not use the word 'social'. Output as a numbered list.",social,numbered_list,"1. Programmatic Ad Buying\n2. Print Campaign Design (Note: social advertising is separate)"
